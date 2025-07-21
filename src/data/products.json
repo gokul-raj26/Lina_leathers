@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Leather Handbags",
+    "category": "handbags",
+    "description": "Handcrafted Italian leather handbags",
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$399",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Genuine Leather Jackets",
+    "category": "jackets",
+    "description": "Premium genuine leather jackets",
+    "image": "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$599",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Leather Belts",
+    "category": "accessories",
+    "description": "Handcrafted leather belts",
+    "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$89",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Leather Phone Cases",
+    "category": "accessories",
+    "description": "Premium leather phone protection",
+    "image": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$49",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Leather Sling Bags",
+    "category": "bags",
+    "description": "Stylish crossbody leather bags",
+    "image": "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$199",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Leather Wallets",
+    "category": "accessories",
+    "description": "Handcrafted leather wallets",
+    "image": "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "price": "$129",
+    "featured": false
+  }
+]
