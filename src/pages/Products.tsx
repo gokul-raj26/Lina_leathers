@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Filter } from 'lucide-react';
+import brownbag from '../Images/brownbag.jpg'; 
+
 
 export default function Products() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -40,7 +42,8 @@ export default function Products() {
       name: 'Leather Phone Cases',
       category: 'accessories',
       description: 'Premium leather phone protection',
-      image: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600',
+       /* image: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600',*/
+      image: brownbag,
       price: '$49',
       featured: false
     },
@@ -49,7 +52,8 @@ export default function Products() {
       name: 'Leather Sling Bags',
       category: 'bags',
       description: 'Stylish crossbody leather bags',
-      image: 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',
+      /*image: 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',  */
+      image: brownbag,
       price: '$199',
       featured: true
     },
