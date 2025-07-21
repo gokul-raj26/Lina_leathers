@@ -2,28 +2,33 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Star, Shield, Truck, Heart } from 'lucide-react';
-
+import marron from '../Images/marron side.jpg'; 
+import purse from '../Images/purse.jpg'; 
+import greenbag from '../Images/green sling.jpg'; 
 export default function Home() {
   const featuredProducts = [
     {
       id: 1,
       name: 'Premium Leather Handbags',
       description: 'Handcrafted Italian leather handbags',
-      image: 'https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=800',
+     /* image: 'https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=800',*/
+      image: marron,
       price: '$399'
     },
     {
       id: 2,
       name: 'Leather Jackets',
       description: 'Premium genuine leather jackets',
-      image: 'https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=800',
+    /*  image: 'https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=800',*/
+      image: purse,
       price: '$599'
     },
     {
       id: 3,
       name: 'Leather Accessories',
       description: 'Belts, wallets, and phone cases',
-      image: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800',
+     /* image: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800',*/
+      image: greenbag,
       price: '$89'
     }
   ];
@@ -216,7 +221,8 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <img
-                src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=800"
+                /*src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=800"*/
+               src = {marron}
                 alt="Leather craftsmanship"
                 className="rounded-lg shadow-lg w-full"
               />
